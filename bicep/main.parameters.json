@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "spnClientId": {
+        "value": "<spn client id>"
+      },
+      "spnClientSecret": {
+          "value": "<spn client secret>"
+      },
+      "spnTenantId": {
+          "value": "<spn tenant id>"
+      },
+      "windowsAdminUsername": {
+        "value": "<username>"
+      },
+      "windowsAdminPassword": {
+        "value": "<password>"
+      },
+      "githubAccount": {
+        "value": "microsoft"
+      },
+      "githubBranch": {
+        "value": "main"
+      },
+      "deployBastion": {
+        "value": true
+      },
+      "rdpPort": {
+        "value": "3389"
+      }
+    }
+  }
+  
